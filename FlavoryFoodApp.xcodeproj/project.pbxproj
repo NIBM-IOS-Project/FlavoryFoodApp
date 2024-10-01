@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB41BA92CABE3BE00AF51DB /* Questionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB41BA82CABE3BE00AF51DB /* Questionnaire.swift */; };
+		0AB41BAB2CABE91300AF51DB /* Questionnaire1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB41BAA2CABE91300AF51DB /* Questionnaire1.swift */; };
+		0AB41BAD2CABE95B00AF51DB /* FaceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB41BAC2CABE95B00AF51DB /* FaceRecognition.swift */; };
+		0AB41BAF2CABE9CD00AF51DB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB41BAE2CABE9CD00AF51DB /* SignUp.swift */; };
+		0AB41BB12CABE9EB00AF51DB /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB41BB02CABE9EB00AF51DB /* SignIn.swift */; };
 		0AC7B9222CA8E8530025B1A9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7B9212CA8E8530025B1A9 /* Home.swift */; };
 		A679BAE82CA7B79900F156AA /* FlavoryFoodAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679BAE72CA7B79900F156AA /* FlavoryFoodAppApp.swift */; };
 		A679BAEA2CA7B79900F156AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679BAE92CA7B79900F156AA /* ContentView.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB41BA82CABE3BE00AF51DB /* Questionnaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questionnaire.swift; sourceTree = "<group>"; };
+		0AB41BAA2CABE91300AF51DB /* Questionnaire1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questionnaire1.swift; sourceTree = "<group>"; };
+		0AB41BAC2CABE95B00AF51DB /* FaceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognition.swift; sourceTree = "<group>"; };
+		0AB41BAE2CABE9CD00AF51DB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		0AB41BB02CABE9EB00AF51DB /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		0AC7B9212CA8E8530025B1A9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A679BAE42CA7B79900F156AA /* FlavoryFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavoryFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A679BAE72CA7B79900F156AA /* FlavoryFoodAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavoryFoodAppApp.swift; sourceTree = "<group>"; };
@@ -99,6 +109,11 @@
 				A679BAE72CA7B79900F156AA /* FlavoryFoodAppApp.swift */,
 				A679BAE92CA7B79900F156AA /* ContentView.swift */,
 				0AC7B9212CA8E8530025B1A9 /* Home.swift */,
+				0AB41BA82CABE3BE00AF51DB /* Questionnaire.swift */,
+				0AB41BB02CABE9EB00AF51DB /* SignIn.swift */,
+				0AB41BAE2CABE9CD00AF51DB /* SignUp.swift */,
+				0AB41BAC2CABE95B00AF51DB /* FaceRecognition.swift */,
+				0AB41BAA2CABE91300AF51DB /* Questionnaire1.swift */,
 				A679BAEB2CA7B79A00F156AA /* Assets.xcassets */,
 				A679BAED2CA7B79A00F156AA /* Preview Content */,
 			);
@@ -260,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB41BAF2CABE9CD00AF51DB /* SignUp.swift in Sources */,
+				0AB41BAD2CABE95B00AF51DB /* FaceRecognition.swift in Sources */,
 				A679BAEA2CA7B79900F156AA /* ContentView.swift in Sources */,
+				0AB41BA92CABE3BE00AF51DB /* Questionnaire.swift in Sources */,
+				0AB41BAB2CABE91300AF51DB /* Questionnaire1.swift in Sources */,
 				0AC7B9222CA8E8530025B1A9 /* Home.swift in Sources */,
 				A679BAE82CA7B79900F156AA /* FlavoryFoodAppApp.swift in Sources */,
+				0AB41BB12CABE9EB00AF51DB /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
